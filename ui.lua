@@ -5,7 +5,7 @@
 local UI = {}
 
 -- // StarterGui.Ronix \\ --
-UI["1"] = Instance.new("ScreenGui", game:GetService("CoreGui"))
+UI["1"] = Instance.new("ScreenGui", gethui())
 UI["1"]["SafeAreaCompatibility"] = Enum.SafeAreaCompatibility.None
 UI["1"]["IgnoreGuiInset"] = true
 UI["1"]["DisplayOrder"] = 999999999
